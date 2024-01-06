@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Primary play-test 1`] = `
+<button>
+  0
+</button>
+`;
+
+exports[`Button Primary play-test 3`] = `
+<button>
+  1
+</button>
+`;
