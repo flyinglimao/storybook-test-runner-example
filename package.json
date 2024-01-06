@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test-storybook": "test-storybook"
   },
   "dependencies": {
     "next": "14.0.4",
@@ -16,6 +17,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@playwright/test": "^1.40.1",
     "@storybook/addon-essentials": "^7.6.7",
     "@storybook/addon-interactions": "^7.6.7",
     "@storybook/addon-links": "^7.6.7",
@@ -23,6 +25,7 @@
     "@storybook/nextjs": "^7.6.7",
     "@storybook/react": "^7.6.7",
     "@storybook/test": "^7.6.7",
+    "@storybook/test-runner": "^0.16.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
